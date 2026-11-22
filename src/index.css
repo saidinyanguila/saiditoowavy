@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+    --color-col-bg: #292725;
+    
+    --color-col-1: #E9E1D2;
+    --color-col-2: #D8C8AA;
+    --color-col-3: #A49A89;
+    --color-col-4: #C2A878;
+    --color-col-5: #8C795C;
+    --color-col-6: #141415;
+}
+
+
+body {
+    background-color: var(--col-bg);
+    color: var(--col-1);
+}
+
